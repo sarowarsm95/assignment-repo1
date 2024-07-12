@@ -192,3 +192,32 @@ nav ul li{
   margin: 24px 45px 50px;
   text-align: center;
 }
+.box{
+  max-width: 265px;
+  min-height: 250px;
+  border: 1px solid green;
+  background-color: #e4b39eeb;
+  text-align: left;
+  border-radius: 16px;
+  padding: 40px 40px;
+}
+.hyper{
+  max-width: 56px;
+  min-height: 56px;
+}
+.text{
+  font-size: 24px;
+  font-weight: 800;
+}
+.pragraph{
+  font-size: 16px;
+  font-weight: 400;
+}
+.ank{
+  font-size: 16px;
+  font-weight: 700;
+  color: #0D1321;
+}
+.main-div{
+  display: flex;
+}

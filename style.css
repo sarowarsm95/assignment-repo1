@@ -200,6 +200,8 @@ nav ul li{
   text-align: left;
   border-radius: 16px;
   padding: 40px 40px;
+  margin-right: 24px;
+  align-items: center;
 }
 .hyper{
   max-width: 56px;
@@ -220,4 +222,5 @@ nav ul li{
 }
 .main-div{
   display: flex;
+  align-items: center;
 }

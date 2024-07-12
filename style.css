@@ -156,3 +156,39 @@ nav ul li{
   background-color: white;
   border: 1px solid;
 }
+.vedio{
+  max-width: 1140px;
+  max-height: 775px;
+  border: 1px solid blue;
+  margin: 0 auto;
+  background-position: center;
+}
+
+.header3{
+  font-size: 32px;
+  font-weight: 800;
+  padding-bottom: 75px;
+  text-align: center;
+  margin: 0 auto;
+}
+.main-vedio{
+  border-radius: 16px;
+}
+.last{
+  max-width: 1140px;
+  min-height: 460px;
+  border: 1px solid blueviolet;
+  margin-top: 150px;
+  }
+.heading2{
+  font-size: 32px;
+  font-weight: 800;
+  margin: 0 0 25px;
+  text-align: center;
+}
+.para4{
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 45px 50px;
+  text-align: center;
+}

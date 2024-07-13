@@ -90,17 +90,18 @@ nav ul li{
 .section-containt{
   max-width: 1140px;
   min-height: 1760px;
-  border: 1px solid black;
   margin: 0 auto;
   margin-top: 75px;
   background-position: center;
   background-color: #eae7e135;
   border-radius: 16px;
 }
+
+
+
 .section-containt2{
   max-width: 945px;
   min-height: 1600px;
-  border: 1px solid black;
   margin: 0 auto;
   margin-top: 75px;
   background-position: center;
@@ -124,7 +125,16 @@ nav ul li{
   display: flex;
   max-width: 945px;
   min-height: 330px;
-  border: 1px solid black;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 45px;
+  background-position: center;
+  justify-content: space-between;
+}
+.child{
+  display: flex;
+  max-width: 945px;
+  min-height: 330px;
   background-color: white;
   margin: 0 auto;
   margin-top: 45px;
@@ -159,7 +169,6 @@ nav ul li{
 .vedio{
   max-width: 1140px;
   max-height: 775px;
-  border: 1px solid blue;
   margin: 0 auto;
   background-position: center;
 }
@@ -177,8 +186,8 @@ nav ul li{
 .last{
   max-width: 1140px;
   min-height: 460px;
-  border: 1px solid blueviolet;
   margin-top: 150px;
+  justify-content: center;
   }
 .heading2{
   font-size: 32px;
@@ -195,8 +204,27 @@ nav ul li{
 .box{
   max-width: 265px;
   min-height: 250px;
-  border: 1px solid green;
   background-color: #e4b39eeb;
+  text-align: left;
+  border-radius: 16px;
+  padding: 40px 40px;
+  margin-right: 24px;
+  align-items: center;
+}
+.box2{
+  max-width: 265px;
+  min-height: 250px;
+  background-color: #d4e49eeb;
+  text-align: left;
+  border-radius: 16px;
+  padding: 40px 40px;
+  margin-right: 24px;
+  align-items: center;
+}
+.box3{
+  max-width: 265px;
+  min-height: 250px;
+  background-color: #81b2baeb;
   text-align: left;
   border-radius: 16px;
   padding: 40px 40px;
@@ -222,5 +250,25 @@ nav ul li{
 }
 .main-div{
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
+  height: 550;
+}
+.backround{
+  max-width: 1140px;
+  min-height: 310px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-image: url('./assets/handshake.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.main-back{
+  display: flex;
+  background-position: center;
+  color: white;
 }
